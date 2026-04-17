@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="aydin.firebasedemo.WelcomeController"
+      stylesheets="@styles.css">
+
+    <Label text="Welcome to Firebase App" style="-fx-font-size: 20px;" />
+
+    <Button text="Register" onAction="#onRegister"/>
+    <Button text="Sign In" onAction="#onSignIn"/>
+
+</VBox>
