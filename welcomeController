@@ -1,0 +1,17 @@
+package aydin.firebasedemo;
+
+import javafx.fxml.FXML;
+import java.io.IOException;
+
+public class WelcomeController {
+
+    @FXML
+    private void onRegister() throws IOException {
+        DemoApp.setRoot("primary");
+    }
+
+    @FXML
+    private void onSignIn() throws IOException {
+        DemoApp.setRoot("primary");
+    }
+}
